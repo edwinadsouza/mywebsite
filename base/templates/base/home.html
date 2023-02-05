@@ -1,0 +1,113 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Edwina Dsouza</title>
+        <link rel = "Stylesheet" href = "{% static 'staticfiles/css/main.css' %}" type = "text/css" >
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" 
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+        crossorigin="anonymous">
+        
+    </head>
+    <body>
+        <br>
+        <div class="container">
+            <div class = 'row'>
+                <div class = 'col-md-3'>
+                    <div class = 'card card-body h-100 border-info' id = "profile-wrapper">
+                        <img id ="profile-pic" 
+                        src = "{% static 'staticfiles/images/Edu.jpeg' %}" >
+                        <hr>
+                        <h4>Hi! I'm Edwina</h4>
+                        <p>I code and make music just for fun!</p>
+                    </div>
+                </div>
+                <div class = 'col-md-9'>
+                    <div class = 'card card-body h-100 border-info'>
+                        <h4>Student at Ajeenkya DY Patil University, Pune</h4>
+                        <hr>
+                        <p>I'm currently pursuing Bachelor's Degree in Computer Engineering. 
+                            I have a keen interest in coding. 
+                            I am familiar with coding in python, java, C/C++, MySQL.
+                        </p>
+                        <p>
+                            Microsoft Certified: AI -900
+                        </p>
+                        <ul class = "social-links">
+                            <li><a href="https://www.facebook.com/edwinadsouza26?mibextid=ZbWKwL">
+                                <img class = "social" src = "{% static 'staticfiles/images/facebook.png' %}"></a></li>
+                            <li><a href ="https://instagram.com/edwinadsouza?igshid=ZmZhODViOGI=">
+                                <img class = "social" src = "{% static 'staticfiles/images/instagram.png' %}"></a></li>
+                            <li><a href ="https://www.linkedin.com/in/edwinadsouza26">
+                                <img class = "social" src = "{% static 'staticfiles/images/linkedin.png' %}"></a></li>
+                            <li><a href ="https://twitter.com/edwinadsouza26?t=pDFURbzqUWHTuU2RVEZu-A&s=08">
+                                <img class = "social" src = "{% static 'staticfiles/images/twitter.png' %}"></a></li>
+                            <li><a href ="https://github.com/edwinadsouza">
+                                <img class ="social" src = "{% static 'staticfiles/images/Git.png' %}"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class = 'row'>
+                <div class = 'col-md-6'>
+                    <div class = 'card card-body h-100'>
+                        <h4>My projects!</h4>
+                        <hr>
+                        <ul>
+                            <li class="projects">Library Management System</li>
+                            <li class="projects">Netflix Clone</li>
+                            <li class="projects">Audiobook</li>
+                            <li class="projects">Voice Assistant</li>
+                        </ul>
+
+                        </p>
+                    </div>
+                </div>
+                <div class = 'col-md-6'>
+                    <div class = 'card card-body h-100'>
+                        <h4>Education</h4>
+                        <hr>
+                        <p>
+                            <ul>
+                                <li class ="projects">Ajeenkya DY Patil University, Pune</li>
+                                <li class ="projects">The Orbis School, Pune</li>
+                                <li class ="projects">St.Arnold's Central School, Pune</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class = 'row'>
+                <div class = 'col-md-6'>
+                    <div class = 'card card-body h-100'>
+                        <h4>Certificates</h4>
+                        <hr>
+                        <p>
+                            <ul>
+                                <li class="projects">Microsoft Certified: Azure AI Fundamentals</li>
+                                <li class="projects">Google Cloud: Cloud Engineering Learning Path</li>
+                                <li class="projects">GDSC ADYPU: Jetpack Compose Kotlin</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class = 'col-md-6'>
+                    <div class = 'card card-body h-100'>
+                        <h4>Volunteering</h4>
+                        <hr>
+                        <p>
+                            <ul>
+                                <li class="projects">#Tech2023: Event Coordinator</li>
+                                <li class="projects">Google Cloud: GDSC ADYPU</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </div>
+
+    </body>
+</html>
